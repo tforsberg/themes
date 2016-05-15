@@ -1,0 +1,94 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#2f2f2f; color:#82847e; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+/* CONTAINER */
+
+#container{width:100%; background:#2f2f2f url(../images/b_top.jpg) 0 0 repeat-x; clear:both; }
+
+/* HEADER */
+
+#header{height:315px; width:745px; margin: 0 auto; position:relative; background:url(../images/b_main.jpg) 0 0 no-repeat; margin-top:15px}
+
+#logo{width:185px; height:135px; position:absolute; top:48px; left:14px}
+
+#slogan{width:192px; height:105px; position:absolute; top:73px; left:494px}
+
+#header ul.menu{height:19px; position:absolute; top:282px; left:228px}
+#header ul.menu li{float:left; margin-right:5px}
+
+#header ul.menu li.home a{width:46px; height:19px; display:block; background:url(../images/btn_home.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.home a:hover{width:46px; height:19px; background:url(../images/btn_home_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.residence a{width:101px; height:19px; display:block; background:url(../images/btn_residence.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.residence a:hover{width:101px; height:19px; background:url(../images/btn_residence_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.floorplans a{width:86px; height:19px; display:block; background:url(../images/btn_floorplans.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.floorplans a:hover{width:86px; height:19px; background:url(../images/btn_floorplans_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.interiors a{width:69px; height:19px; display:block; background:url(../images/btn_interiors.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.interiors a:hover{width:69px; height:19px; background:url(../images/btn_interiors_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.location a{width:69px; height:19px; display:block; background:url(../images/btn_location.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.location a:hover{width:69px; height:19px; background:url(../images/btn_location_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.bullet{width:19px; height:19px; display:block; background:url(../images/bullet_btn.jpg) 0 0 no-repeat;}
+
+#header ul.minimenu{height:19px; position:absolute; top:287px; left:31px}
+#header ul.minimenu li{float:left; margin-right:12px}
+
+#header ul.minimenu li.about a{width:38px; height:7px; display:block; background:url(../images/btn_about.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.minimenu li.help a{width:18px; height:7px; display:block; background:url(../images/btn_help.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.minimenu li.contacts a{width:39px; height:7px; display:block; background:url(../images/btn_contacts.gif) 0 0 no-repeat; text-indent:-20000px;}
+
+#header ul.minimenu li.line{width:1px; height:7px; display:block; background:url(../images/line_btn.gif) 0 0 no-repeat;}
+
+/* CONTENT */
+
+#content{width:745px; margin: 0 auto; position:relative; background:url(../images/b_content.jpg) 0 0 repeat-y; clear:both;}
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#2f2f2f; font-weight:bold; text-decoration:none }
+#content a:hover{color:#f76e00; border-bottom: #000 1px dotted; text-decoration:none }
+
+#content p span.headline{font:12px/12px Trebuchet MS, sans-serif; color:#f87600; font-weight:bold;}
+#content p span.headline2{font:12px/12px Trebuchet MS, sans-serif; color:#82847e; font-weight:bold;}
+#content p span.date{font:12px/12px Trebuchet MS, sans-serif; color:#000000; font-weight:bold;}
+
+#content img{border:#c0c1bd 2px solid;}
+
+#leftPan{width:170px; margin: 21px 39px 10px 22px; position:relative; float:left; display:inline;}
+
+#services {margin-bottom:15px;}
+#services h2{width:115px; height:19px; background:url(../images/h_services.gif) 0 0 no-repeat; position:relative; padding: 0 0 12px 0; clear:both;}
+#services img {margin-bottom:10px;}
+
+#events {margin-bottom:10px;}
+#events h2{width:115px; height:19px; background:url(../images/h_events.gif) 0 0 no-repeat; position:relative; padding: 0 0 12px 0; clear:both;}
+#events p.event{width:145px; padding:0 0 0 22px; background:url(../images/bullet.gif) 1px 2px no-repeat; margin-bottom:20px;}
+
+#rightPan{width:483px; margin: 16px 0 10px 0; position:relative; float:left;}
+
+#welcome {display:block; margin-bottom:15px; padding-bottom:20px; border-bottom: #d9dad8 1px solid;}
+#welcome h2{width:238px; height:24px; background:url(../images/h_welcome.gif) 6px 0 no-repeat; position:relative; padding: 0 0 12px 0; clear:both;}
+#welcome img {margin-bottom:10px; border-left:none; border-right:none;  border-top: #d9dad8 1px solid; border-bottom: #d9dad8 1px solid; }
+#welcome p{padding-left:6px;}
+#welcome p span.headline{display: block; margin-bottom:10px;}
+
+#residence {margin-bottom:10px;}
+#residence h2{width:238px; height:24px; background:url(../images/h_residence.gif) 6px 0 no-repeat; position:relative; padding: 0 0 12px 0; clear:both;}
+#residence img{float:left; margin:0 20px 15px 6px; display:inline;}
+#residence ul{float:left}
+#residence li{ background:url(../images/arrow.gif) 0 5px no-repeat; padding-left:20px; height:20px}
+#residence li a{ font:10px/14px Tahoma, sans-serif; color:#494b46; font-weight:normal; text-decoration:underline }
+#residence li a:hover{color:#fff; font-weight:normal; text-decoration:none; background:#000}
+#residence p{clear:both; padding-left:6px}
+
+/* FOOTER */
+
+#footer{width:745px; height:55px; margin: 0 auto; position:relative; clear:both; background:url(../images/b_footer.jpg) 0 0 no-repeat;}
+#footer p{padding: 15px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 2px }
+#footer p a:hover{color:#fff; border-bottom: #000 1px dotted; text-decoration:none; background:#f87600; }

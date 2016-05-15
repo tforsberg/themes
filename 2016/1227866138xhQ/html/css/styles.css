@@ -1,0 +1,90 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#f7f6e4; color:#323639; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+/* HEADER */
+
+#header{height:392px; width:775px; margin: 0 auto; position:relative; background:url(../images/b_top.jpg) 0 0 no-repeat;}
+
+#header ul.menu{height:51px; position:absolute; top:0px; left:59px}
+#header ul.menu li{float:left; margin-right:22px}
+
+#header ul.menu li.home a{width:91px; height:51px; display:block; background:url(../images/btn_home.gif) 0 29px no-repeat; text-indent:-20000px;}
+#header ul.menu li.home a:hover{width:91px; height:51px; background:url(../images/btn_home_over.gif) 0 29px no-repeat;}
+
+#header ul.menu li.about a{width:76px; height:51px; display:block; background:url(../images/btn_about.gif) 0 29px no-repeat; text-indent:-20000px;}
+#header ul.menu li.about a:hover{width:76px; height:51px; background:url(../images/btn_about_over.gif) 0 29px no-repeat;}
+
+#header ul.menu li.services a{width:72px; height:51px; display:block; background:url(../images/btn_services.gif) 0 29px no-repeat; text-indent:-20000px;}
+#header ul.menu li.services a:hover{width:72px; height:51px; background:url(../images/btn_services_over.gif) 0 29px no-repeat;}
+
+#header ul.menu li.advice a{width:59px; height:51px; display:block; background:url(../images/btn_advice.gif) 0 29px no-repeat; text-indent:-20000px;}
+#header ul.menu li.advice a:hover{width:59px; height:51px; background:url(../images/btn_advice_over.gif) 0 29px no-repeat;}
+
+#header ul.menu li.staff a{width:77px; height:51px; display:block; background:url(../images/btn_staff.gif) 0 29px no-repeat; text-indent:-20000px;}
+#header ul.menu li.staff a:hover{width:77px; height:51px; background:url(../images/btn_staff_over.gif) 0 29px no-repeat;}
+
+#header ul.menu li.contacts a{width:73px; height:51px; display:block; background:url(../images/btn_contacts.gif) 0 29px no-repeat; text-indent:-20000px;}
+#header ul.menu li.contacts a:hover{width:73px; height:51px; background:url(../images/btn_contacts_over.gif) 0 29px no-repeat;}
+
+#header ul.menu li.spacerline{width:2px; height:51px; display:block; background:url(../images/line_menu.jpg) 0 0 no-repeat;}
+
+#header #logo{width:338px; height:84px; position:absolute; top:115px; left:47px}
+
+#header #call{width:242px; height:40px; position:absolute; top:233px; left:206px}
+
+#header ul.links{height:41px; position:absolute; top:327px; left:17px}
+#header ul.links li{float:left; margin-right:25px}
+
+#header ul.links li.treatment a{width:242px; height:41px; display:block; background:url(../images/btn_treatment.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.links li.tour a{width:221px; height:41px; display:block; background:url(../images/btn_tour.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+
+/* CONTENT */
+
+#content{width:775px; margin: 0 auto; position:relative; clear:both;}
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#323639; font-weight:bold; text-decoration:none }
+#content a:hover{color:#000; border-bottom: #000 1px dotted; text-decoration:none }
+
+#content p span.headline{font:12px/12px Trebuchet MS, sans-serif; color:#93880d; font-weight:bold;}
+#content p span.headline2{font:12px/12px Trebuchet MS, sans-serif; color:#585c30; font-weight:bold;}
+#content img{border:#babaa4 2px solid;}
+
+#leftPan{width:340px; margin: 0 55px 10px 20px; position:relative; float:left; display:inline;}
+
+#specialists{width:337px; position:relative; margin-left:3px;}
+#specialists h2{height:34px; background:url(../images/h_specialists.gif) 0 0 no-repeat; position:relative; padding: 0 0 7px 0;}
+
+#specialists ul{margin:0 0 20px 9px; width:155px; float:left; display:inline}
+#specialists li{ background:url(../images/arrow.jpg) 0 2px no-repeat; padding-left:19px; height:18px}
+#specialists li a{ font:10px/14px Tahoma, sans-serif; color:#585c30; font-weight:normal; text-decoration:underline }
+#specialists li a:hover{color:#000; font-weight:normal; text-decoration:none; border-bottom: #000 1px dotted;}
+
+#doctor{width:340px; position:relative; }
+#doctor h2{height:28px; background:#e5e3cd url(../images/h_dr.gif) 10px 4px no-repeat; position:relative;}
+#doctor #frame{background:#f0efdb; padding:22px 15px 0 21px }
+#doctor #frame img{width:98px; float:left; margin-right:8px; margin-bottom:10px}
+#doctor #frame #drtext{width:190px; float:left; margin-bottom:10px}
+#doctor #frame #drtext p{width:165px; background:url(../images/bullet.jpg) 2px 0 no-repeat; padding: 2px 0 10px 23px;}
+
+#rightPan{width:330px; position:relative; float:left; margin-bottom:10px}
+
+#welcome{width:330px; position:relative; margin-bottom:30px;}
+#welcome h2{height:34px; background:url(../images/h_welcome.gif) 0 0 no-repeat; position:relative; padding: 0 0 7px 0;}
+
+#services{width:330px; position:relative;}
+#services h2{height:34px; background:url(../images/h_services.gif) 0 0 no-repeat; position:relative; margin: 0 0 7px 0;}
+.topic{width:325px; margin-left:3px; margin-bottom:10px}
+.topic img{float:left; margin-right:10px; margin-bottom:10px}
+.topic p{ padding-top:2px}
+
+/* FOOTER*/
+
+#footer{width:775px; height:81px; margin: 0 auto; position:relative; clear:both; background:url(../images/b_footer.jpg) 0 0 no-repeat;}
+#footer p{padding: 26px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 5px }
+#footer p a:hover{color:#000; background:#fff; border-bottom: #000 1px dotted; }

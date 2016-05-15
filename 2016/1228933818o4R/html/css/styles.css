@@ -1,0 +1,236 @@
+body{
+	padding:0px;
+	margin:0px;
+	background:#FFF;
+	color:#858585;
+	font:10px/14px Tahoma, sans-serif;
+}
+
+div, p, ul, h2, h3, h4, img, form{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear{
+clear:both;
+}
+
+.frame {
+	border: 1px solid #F4F4F4;
+}
+
+.text1 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12px;
+	color: #e3151d;
+	font-weight: bold;
+	line-height: 14px;
+}
+.text2 {
+	color: #e3151d;
+	font: normal 12px "Trebuchet MS", sans-serif;
+	text-transform: uppercase;
+}
+.text3 {
+	color: #e3151d;
+	font: normal 10px "Trebuchet MS", sans-serif;
+	text-transform: uppercase;
+	line-height: 10px;
+}
+.text4 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #ec2828;
+}
+.text5 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #741907;
+}
+
+
+a:link {
+	color: #858585;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #858585;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #858585;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: underline;
+}
+
+a.a:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.a:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.a:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+	line-height: 14px;
+}
+
+a.b:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #858585;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #858585;
+	text-decoration: underline;
+}
+a.b:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #343434;
+	text-decoration: none;
+	line-height: 14px;
+}
+
+a.c:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #382a1a;
+	text-decoration: none;
+}
+a.c:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #382a1a;
+	text-decoration: none;
+}
+a.c:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #989560;
+	text-decoration: none;
+}
+
+a.d:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #19333b;
+	text-decoration: underline;
+}
+a.d:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #19333b;
+	text-decoration: underline;
+}
+a.d:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF6C00;
+	text-decoration: none;
+}
+
+#header{
+position:relative; 
+}
+
+#logo{
+position:absolute; top:97px; left:430px;
+}
+
+#buttons{
+padding: 0;
+}
+
+#container{
+position:relative;
+width:667px;
+margin:32px 0 0 53px
+}
+
+#downcontainer{
+position:relative;
+width:680px;
+margin:14px 0 0 71px
+}
+
+
+#indent1{
+width:430px;
+float:left;
+}
+
+#indent2{
+width:210px;
+margin-left:27px;
+float:left;
+}
+
+ul.news li{background:url(../images/file.gif) 0 2px no-repeat; padding-left:11px; margin-bottom:14px}
+
+
+ul.check li{background:url(../images/check.jpg) 0 0 no-repeat; padding-left:29px; margin-bottom:10px;}
+ul.check li a{font:10px/14px Tahoma, sans-serif; color:#858585; font-weight:normal; text-decoration:underline;}
+ul.check li a:hover{color:#000; font-weight:normal; text-decoration:none;}
+
+ul.arrow li{background:url(../images/arrow.jpg) 0 0 no-repeat; padding-left:29px; margin-bottom:8px;}
+ul.arrow li a{font:10px/14px Tahoma, sans-serif; color:#858585; font-weight:normal; text-decoration:underline;}
+ul.arrow li a:hover{color:#000; font-weight:normal; text-decoration:none;}
+
+#links{
+	margin:15px 0 0 0;
+	line-height:18px;
+}
+
+input, textarea{
+border:#b7b7b7 1px solid;
+background-color:#e5e5e5;
+margin-top:5px;
+font:10px/12px Tahoma, sans-serif; color:#000; 
+}
+
+#subtitle{
+width:437px;
+height:23px;
+background:url(../images/b_subtitle.gif) 0 0 no-repeat;
+margin-bottom:7px;
+}

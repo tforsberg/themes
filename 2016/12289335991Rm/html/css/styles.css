@@ -1,0 +1,219 @@
+body{padding:0px; margin:0px; background:#FFF; color:#6f6f6f; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+td, textarea, input, select {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: 6f6f6f;
+	font-weight: normal;
+}
+
+.frame {
+	border: 1px solid #383D50;
+}
+
+.text1 {
+	font-family: tahoma;
+	font-size: 10px;
+	color: #e41300;
+	font-weight: bold;
+}
+.text2 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #363d50;
+}
+.text3 {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #5e6998;
+	font-style: normal;
+}
+.text4 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #5e6998;
+}
+.text5 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #67767a;
+}
+.text6 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text7 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+.text8 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #94AEC5;
+}
+.text9 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #4E4E4E;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ul1 {
+	line-height:18px;
+}
+
+.ul1 a {
+	color: #999999;
+}
+
+.ul1 li {
+	background: url(../images/arrow4.gif) left no-repeat center;
+	padding: 0 0 0 10px;
+}
+
+a:link {
+	color: #5e6998;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #5e6998;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #5e6998;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: underline;
+}
+
+a.a:link {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.a:visited {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.a:hover {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #EF4200;
+}
+
+a.b:link {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a.b:visited {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a.b:hover {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+
+a.c:link {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #ED3C00;
+	text-decoration: underline;
+}
+a.c:visited {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #ED3C00;
+	text-decoration: none;
+}
+a.c:hover {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+	background-color:#ED3C00;
+}
+
+
+#logo{
+	margin:46px 0 0 57px;
+}
+
+#buttons{
+	margin:18px 0 0 47px;
+}
+
+#buttons img{margin-right:54px;}
+
+#links{
+	margin:22px 0 0 57px;
+	line-height:18px;
+}
+
+ul.redarrow li{background:url(../images/arrow_3.gif) 0 5px no-repeat; padding-left:19px; height:18px}
+ul.redarrow li a{font:10px/14px Tahoma, sans-serif; color:#ed3c00; font-weight:normal; text-decoration:underline}
+ul.redarrow li a:hover{color:#fff; font-weight:normal; text-decoration:none; background:#ed3c00;}
+
+#indent1{
+width:195px;
+padding-left:11px;
+}
+
+#indent2{
+width:195px;
+}
+
+input, textarea{
+border:#000000 1px solid;
+background-color:#FFFFFF;
+}

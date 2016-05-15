@@ -1,0 +1,89 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#111111; color:#cecece; font:10px/12px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+/* HEADER */
+
+#header{width:775px; height:339px; background:url(../images/b_top.jpg) 0 0 no-repeat; position:relative; margin: 0 auto;}
+#logo{position:absolute; top:22px; left:69px}
+#slogan{position:absolute; top:82px; left:470px}
+#download{position:absolute; top:278px; left:605px}
+
+#header ul.menu{width:242px; position:absolute; top:170px; left:41px;}
+#header ul.menu li{height:25px; margin-bottom:6px;}
+#header ul.menu li a{width:242px; height:25px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{width:242px; height:25px; }
+
+#header ul.menu li.about a{background:url(../images/btn_about.jpg) 0 0 no-repeat;}
+#header ul.menu li.about a:hover{background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.new a{background:url(../images/btn_new.jpg) 0 0 no-repeat;}
+#header ul.menu li.new a:hover{background:url(../images/btn_new_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.used a{background:url(../images/btn_used.jpg) 0 0 no-repeat;}
+#header ul.menu li.used a:hover{background:url(../images/btn_used_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.support a{background:url(../images/btn_support.jpg) 0 0 no-repeat;}
+#header ul.menu li.support a:hover{background:url(../images/btn_support_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.contacts a{background:url(../images/btn_contacts.jpg) 0 0 no-repeat;}
+#header ul.menu li.contacts a:hover{background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+#header ul.minimenu{position:absolute; top:16px; left:580px;}
+#header ul.minimenu li{height:26px; margin-right:12px; float:left}
+
+#header ul.minimenu li.home a{width:45px; height:26px; display:block; background:url(../images/minibtn_home.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.minimenu li.help a{width:18px; height:26px; display:block; background:url(../images/minibtn_help.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.minimenu li.contacts a{width:34px; height:26px; display:block; background:url(../images/minibtn_contact.gif) 0 0 no-repeat; text-indent:-20000px;}
+
+#header ul.minimenu li.line{width:1px; height:26px; display:block; background:url(../images/line_minibtn.jpg) 0 19px no-repeat;}
+
+
+/* CONTENT */
+
+#content{width:775px; position:relative; margin: 0 auto; clear:both;}
+
+#content p a{font:10px/14px Tahoma, sans-serif; color:#00b8c5; font-weight:bold; text-decoration:none }
+#content p a:hover{color:#00b8c5; text-decoration:none; border-bottom:#00b8c5 1px dotted;}
+
+#content p span.headline{font:12px/14px Trebuchet MS, sans-serif; color:#007c82; font-weight:bold;}
+#content p span.headline2{font:12px/12px Trebuchet MS, sans-serif; color:#00b8c5; font-weight:bold;}
+#content p span.date{font:12px/14px Trebuchet MS, sans-serif; color:#00b8c5; font-weight:bold;}
+
+#leftPan{width:283px; float:left; display:inline; position:relative; background:url(../images/b_left.jpg) 0 0 no-repeat;}
+
+#featured{width:242px; margin:29px 0 0 41px; position:relative; }
+#featured h2{height:21px; background:url(../images/h_featured.gif) 55px 0 no-repeat; position:relative; clear:both; margin-bottom:32px}
+.featitem{width:204px; background:#fff; padding:5px 19px 15px 19px; display:block;}
+.featitem p span{padding-bottom:5px; display:block;}
+.featitem p {color:#535353;}
+.featitem img{margin-bottom:8px;}
+
+#rightPan{width:492px; float:left; position:relative; background:url(../images/b_right.jpg) 0 0 no-repeat;}
+
+#welcome{width:435px; margin:23px 0 15px 28px; position:relative;}
+#welcome h2{height:29px; background:url(../images/h_welcome.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:10px}
+#welcome p span{display:block; margin-bottom:15px;}
+
+#services{width:238px; position:relative; float:left; display:inline; margin-right:30px; background:url(../images/img_services.jpg) left bottom no-repeat; }
+#services h2{height:29px; background:url(../images/h_services.gif) 28px 0 no-repeat; position:relative; clear:both; margin-bottom:20px}
+#services ul{margin-bottom:17px}
+#services li {background:url(../images/arrow.gif) 32px 3px no-repeat; padding-left:47px; height:18px;}
+#services li a{font:10px/14px Tahoma, sans-serif; color:#00b8c5; font-weight:normal; text-decoration:underline;}
+#services li a:hover{color:#fff; font-weight:normal; text-decoration:none; background:#00b8c5;}
+#services p{width:100px; text-align:right; margin-left:138px; margin-bottom:15px}
+
+#news{width:200px; position:relative; float:left;}
+#news h2{height:29px; background:url(../images/h_news.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:20px}
+#news p{background:url(../images/bullet.gif) 0 0 no-repeat; padding-left:24px; margin-bottom:10px; padding-top:3px}
+
+/* FOOTER */
+
+#footer{width:775px; height:80px; background:url(../images/b_footer.jpg) 0 0 repeat-x; position:relative; margin: 0 auto; clear:both;}
+#footer p{width:492px; padding: 23px 0 0 283px; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#535353;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#535353; text-decoration:none; padding: 0 2px }
+#footer p a:hover{text-decoration:none; background:#535353; color:#fff}
+#call{position:absolute; top:27px; left:72px}

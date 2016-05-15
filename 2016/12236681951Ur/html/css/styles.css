@@ -1,0 +1,98 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#fff; color:#6e6e6e; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+#container{margin:0 auto; width:775px; position:relative; border: #000 1px solid;}
+
+p a.link01{font:10px/14px Tahoma, sans-serif; color:#6e6e6e; font-weight:normal; text-decoration:underline;}
+p a.link01:hover{color:#fff; text-decoration:none; background:#009900;}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#d76500; font-weight:normal; text-decoration:none;}
+p a:hover{color:#fff; text-decoration:none; background:#009900;}
+
+/* HEADER */
+
+#header{height:239px; position:relative; background:url(../images/b_top.jpg) 0 0 no-repeat;}
+
+#logo{width:218px; height:58px; position:absolute; top:11px; left:14px }
+
+#slogan{width:200px; height:16px; position:absolute; top:35px; left:545px }
+
+#categories{width:298px; height:55px; position:absolute; top:70px; left:296px }
+
+/* MENU */
+
+#menu{height:40px; position:relative; background:url(../images/b_buttons.jpg) 0 0 no-repeat; clear:both}
+
+#menu ul{margin: 0 auto; padding-top:15px; padding-left:30px;}
+#menu ul li{float:left; margin-right: 21px;}
+
+#menu ul li.home a{width:76px; height:13px; display:block; background:url(../images/btn_home.gif) 0 0 no-repeat; text-indent:-20000px;}
+#menu ul li.home a:hover{width:76px; height:13px; background:url(../images/btn_home_over.gif) 0 0 no-repeat;}
+
+#menu ul li.about a{width:98px; height:13px; display:block; background:url(../images/btn_about.gif) 0 0 no-repeat; text-indent:-20000px;}
+#menu ul li.about a:hover{width:98px; height:13px; background:url(../images/btn_about_over.gif) 0 0 no-repeat;}
+
+#menu ul li.membership a{width:83px; height:13px; display:block; background:url(../images/btn_membership.gif) 0 0 no-repeat; text-indent:-20000px;}
+#menu ul li.membership a:hover{width:83px; height:13px; background:url(../images/btn_membership_over.gif) 0 0 no-repeat;}
+
+#menu ul li.prices a{width:50px; height:13px; display:block; background:url(../images/btn_prices.gif) 0 0 no-repeat; text-indent:-20000px;}
+#menu ul li.prices a:hover{width:50px; height:13px; background:url(../images/btn_prices_over.gif) 0 0 no-repeat;}
+
+#menu ul li.events a{width:50px; height:13px; display:block; background:url(../images/btn_events.gif) 0 0 no-repeat; text-indent:-20000px;}
+#menu ul li.events a:hover{width:50px; height:13px; background:url(../images/btn_events_over.gif) 0 0 no-repeat;}
+
+#menu ul li.contacts a{width:68px; height:13px; display:block; background:url(../images/btn_contacts.gif) 0 0 no-repeat; text-indent:-20000px;}
+#menu ul li.contacts a:hover{width:68px; height:13px; background:url(../images/btn_contacts_over.gif) 0 0 no-repeat;}
+
+#menu ul li.bullet{width:15px; height:13px; background:url(../images/bullet1.gif) 0 0 no-repeat;}
+
+/* CONTENT */
+
+#content{position:relative; background:#006600; border-top: #fff 1px dashed;  border-bottom: #fff 1px dashed; clear:both}
+
+#incontent{background:#fff; padding-top:24px;}
+
+#leftPan{position:relative; width:372px; float:left; border-right:#cccccc 1px solid; margin-right:33px}
+
+#welcome{width:300px; border-bottom:#cccccc 1px solid; padding-bottom:20px; margin-left:38px}
+#welcome h2{width:211px; height:17px; background:url(../images/h_welcome.jpg) 0 0 no-repeat; clear:both; padding-bottom:21px;}
+#welcome p.img{width:170px; min-height:75px; padding: 6px 0 15px 129px; background:url(../images/img_welcome.jpg) 0 0 no-repeat; display:block; font:10px/12px Tahoma, sans-serif; color:#d76500; font-weight:bold;}
+
+#equipment{width:338px; position:inherit; clear:both;}
+#equipment h2{width:136px; height:135px; background:url(../images/img_equipment.jpg) 0 0 no-repeat; float:left;}
+#equipment h3{width:202px; height:40px; background:url(../images/h_equipment.jpg) 0 0 no-repeat; float:left; margin-top:9px;}
+#equipment ul{width:202px;float:left; margin-top:10px;}
+#equipment ul li{height:18px;}
+#equipment ul li a{font:10px/18px Tahoma, sans-serif; color:#d76500; font-weight:normal; text-decoration:underline; background:url(../images/arrow1.jpg) 27px 7px no-repeat; padding: 0 0 0 42px; display:block;}
+#equipment ul li a:hover{text-decoration:none; color:#000;}
+
+#rightPan{position:relative; width:332px; float:left;}
+
+#services{width:332px; border-bottom:#cccccc 1px solid; padding-bottom:20px;}
+#services h2{width:332px; height:17px; background:url(../images/h_services.jpg) 0 0 no-repeat; padding-bottom:21px; float:left;}
+#services h3{width:103px; height:127px; background:url(../images/img_services.jpg) 1px 0 no-repeat; float:left; }
+
+#services ul{width:229px;float:left; margin-top:5px;}
+#services ul li{height:18px;}
+#services ul li a{font:10px/18px Tahoma, sans-serif; color:#d76500; font-weight:normal; text-decoration:underline; background:url(../images/arrow1.jpg) 0 7px no-repeat; padding: 0 0 0 12px; display:block;}
+#services ul li a:hover{text-decoration:none; color:#000;}
+
+#services p{clear:both}
+
+#membership{width:332px; margin-top:20px;}
+#membership h2{width:332px; height:17px; background:url(../images/h_membership.jpg) 0 0 no-repeat; padding-bottom:10px; }
+#membership p.boldtext{font:10px/12px Tahoma, sans-serif; color:#d76500; font-weight:bold; padding-bottom:10px}
+
+
+/* FOOTER */
+
+#footer {height:119px; clear:both; background:#597207;}
+
+#footer img{width:301px; float:left; border-right:#fff 1px dashed;}
+#footer p{margin: 32px 0 0 32px; font:10px/18px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:left; color:#fff; float:left}
+#footer p a{font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 2px }
+#footer p a:hover{color:#000; background:#FFFFFF;}

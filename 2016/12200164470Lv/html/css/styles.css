@@ -1,0 +1,66 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#FFF; color:#9c9c9c; font:12px/14px "Times New Roman", Times, serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+span {color:#c7092d;}
+a {color:#000000; text-decoration:none}
+a:hover {color:#c7092d;}
+
+/* HEADER */
+
+#header{width:775px; margin:0 auto; background:url(../images/b_top.jpg) no-repeat #FFF; height:105px; position:relative;}
+#header img{width:297px; height:53px; position:absolute; top:26px; left:37px;}
+
+/* MAIN TOP */
+
+#main {width:775px; margin:0 auto; background:url(../images/b_main.jpg) no-repeat #FFF; height:366px; position:relative; clear:both;}
+
+#main ul {width:470px; position:absolute; top:8px; left:284px;}
+#main ul li{float:left}
+
+#main ul li.home{width:75px; height:15px; margin-right:25px}
+#main ul li.home a{width:75px; height:15px; display:block; background:url(../images/btn_home.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.home a:hover{width:75px; height:15px; background:url(../images/btn_home_over.jpg) 0 0 no-repeat;}
+
+#main ul li.about{width:68px; height:15px; margin-right:25px}
+#main ul li.about a{width:68px; height:15px; display:block; background:url(../images/btn_about.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.about a:hover{width:68px; height:15px; background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+#main ul li.menu{width:71px; height:15px; margin-right:25px}
+#main ul li.menu a{width:71px; height:15px; display:block; background:url(../images/btn_menu.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.menu a:hover{width:71px; height:15px; background:url(../images/btn_menu_over.jpg) 0 0 no-repeat;}
+
+#main ul li.specials{width:63px; height:15px; margin-right:25px}
+#main ul li.specials a{width:63px; height:15px; display:block; background:url(../images/btn_specials.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.specials a:hover{width:63px; height:15px; background:url(../images/btn_specials_over.jpg) 0 0 no-repeat;}
+
+#main ul li.contacts{width:72px; height:15px;}
+#main ul li.contacts a{width:72px; height:15px; display:block; background:url(../images/btn_contacts.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.contacts a:hover{width:72px; height:15px; background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+#main #welcome{width:336px; position: absolute; top: 62px; left:400px;}
+#main #welcome h2{width:288px; height:17px; background:url(../images/h_wel.jpg) 0 0 no-repeat; text-indent:-20000px; padding-bottom:10px}
+#main #welcome p{padding: 0 0 20px 5px;}
+#main #welcome p.text01 {padding: 10px 150px 0 5px; background:url(../images/img_wel.jpg) top right no-repeat; min-height: 82px; }
+#main #welcome p.text02 {padding: 10px 150px 0 5px; background:url(../images/img_wel-09.jpg) top right no-repeat; min-height: 82px; }
+
+/* CONTENT */
+
+#content {width:775px; margin:0 auto; position:relative; clear:both;}
+
+#content #leftPan{width:280px; position:relative; float:left; padding: 12px 30px 20px 40px; border-right: #e1e1e1 1px solid;}
+#content #leftPan h2{width:217px; height:23px; background:url(../images/h_delicious.jpg) 0 0 no-repeat; text-indent:-20000px; padding-bottom:16px;}
+#content #leftPan p.txtleft{width:120px; float:left; padding: 135px 21px 0 6px; background:url(../images/img_delicious.jpg) 2px 0 no-repeat;}
+#content #leftPan p.txtright{width:120px; float:left; padding: 135px 5px 0 4px; background:url(../images/img_delicious-14.jpg) 0 0 no-repeat; }
+
+#content #rightPan{width:336px; position:relative; float:left; padding: 12px 0 20px 37px;}
+#content #rightPan h2{width:137px; height:23px; background:url(../images/h_services.jpg) 0 0 no-repeat; text-indent:-20000px; padding-bottom:16px;}
+#content #rightPan p.intro{width:132px; height:127px; padding: 4px 0 0 204px; background:url(../images/img_services.jpg) 2px 0 no-repeat;}
+#content #rightPan p{padding: 10px 5px 0 4px;}
+
+/* FOOTER */
+
+#footer {width:775px; height:79px; margin:0 auto; position:relative; clear:both; background:url(../images/b_footer.jpg) 0 0 no-repeat;}
+#footer p{margin: 20px auto 0 auto; font:10px/18px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; }
+#footer a{font:10px/20px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal;  color:#9c9c9c; text-decoration:none; padding: 0 5px}
+#footer a:hover{color:#FFF; text-decoration:none; background:#d60000;}

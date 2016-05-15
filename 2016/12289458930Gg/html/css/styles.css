@@ -1,0 +1,233 @@
+body{
+	padding:0px;
+	margin:0px;
+	background:#fff6d3;
+	color:#fff;
+	font:10px/12px Tahoma, sans-serif;
+}
+
+div, p, ul, h2, h3, h4, img, form{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear{
+clear:both;
+}
+
+.frame {
+	border: 1px solid #9C9A67;
+}
+
+.text1 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 11px;
+	color: #fdfaf1;
+	font-weight: bold;
+	line-height: 14px;
+}
+.text2 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.text3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text4 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #1d1d1f;
+}
+.text5 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #741907;
+}
+
+
+a:link {
+	color: #1d1d1f;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #1d1d1f;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #1d1d1f;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: underline;
+}
+
+a.a:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #cfd22f;
+	text-decoration: underline;
+}
+a.a:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #cfd22f;
+	text-decoration: underline;
+}
+a.a:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 12px;
+}
+
+a.b:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #cfd22f;
+	text-decoration: none;
+}
+a.b:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #cfd22f;
+	text-decoration: none;
+}
+a.b:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+	line-height: 12px;
+}
+
+a.c:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #382a1a;
+	text-decoration: none;
+}
+a.c:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #382a1a;
+	text-decoration: none;
+}
+a.c:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #989560;
+	text-decoration: none;
+}
+
+a.d:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #19333b;
+	text-decoration: underline;
+}
+a.d:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #19333b;
+	text-decoration: underline;
+}
+a.d:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF6C00;
+	text-decoration: none;
+}
+
+#header{
+position:relative; 
+}
+
+#logo{
+position:absolute; top:22px; left:90px;
+}
+
+#buttons{
+padding: 0 0 0 48px;
+}
+
+#container{
+position:relative;
+width:645px;
+}
+
+#indent1{
+width:270px;
+margin-left:32px;
+float:left;
+padding-right:20px;
+border-right:#c1603d 1px dashed;
+}
+
+#indent2{
+width:290px;
+margin-left:26px;
+margin-top:11px;
+float:left;
+}
+
+#ad{
+width:639px;
+height:103px;
+background-color:#fcf6d6;
+border: #d9dd91 3px solid; 
+clear:both;
+margin:20px 0 0 16px;
+}
+
+ul.arrow li{background:url(../images/arrow.gif) 0 5px no-repeat; padding-left:24px; margin-bottom:10px;}
+ul.arrow li a{font:10px/14px Tahoma, sans-serif; color:#cfd22f; font-weight:normal; text-decoration:underline;}
+ul.arrow li a:hover{color:#fff; font-weight:normal; text-decoration:none;}
+
+ul.file li{background:url(../images/file.gif) 0 2px no-repeat; padding-left:22px; margin-bottom:10px;}
+ul.file li a{font:10px/14px Tahoma, sans-serif; color:#cfd22f; font-weight:normal; text-decoration:underline;}
+ul.file li a:hover{color:#fff; font-weight:normal; text-decoration:none;}
+
+#links{
+	margin:10px 0 0 0;
+	line-height:18px;
+}
+
+input, textarea{
+border:#606522 1px solid;
+background-color:#fff6d3;
+margin-top:5px;
+font:10px/12px Tahoma, sans-serif; color:#000; 
+}
+

@@ -1,0 +1,89 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#252a2d; color:#b6b6b6; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+/* HEADER */
+
+#header{width:735px; height:113px; background:url(../images/b_header.jpg) 0 0 repeat-x; position:relative; margin: 0 auto; margin-bottom:9px}
+#call{position:absolute; top:29px; left:46px}
+
+#header ul{height:73px; position:absolute; top:0; left:215px;}
+#header ul li{float:left;}
+#header ul li a{height:73px; display:block; text-indent:-20000px; }
+#header ul li a:hover{height:73px;}
+
+#header ul li.home a{width:85px; background:url(../images/btn_home.jpg) 0 0 no-repeat; }
+#header ul li.home a:hover{width:85px; background:url(../images/btn_home_over.jpg) 0 0 no-repeat;}
+
+#header ul li.about a{width:85px; background:url(../images/btn_about.jpg) 0 0 no-repeat; }
+#header ul li.about a:hover{width:85px; background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+#header ul li.services a{width:84px; background:url(../images/btn_services.jpg) 0 0 no-repeat; }
+#header ul li.services a:hover{width:84px; background:url(../images/btn_services_over.jpg) 0 0 no-repeat;}
+
+#header ul li.solutions a{width:91px; background:url(../images/btn_solutions.jpg) 0 0 no-repeat; }
+#header ul li.solutions a:hover{width:91px; background:url(../images/btn_solutions_over.jpg) 0 0 no-repeat;}
+
+#header ul li.support a{width:83px; background:url(../images/btn_support.jpg) 0 0 no-repeat; }
+#header ul li.support a:hover{width:83px; background:url(../images/btn_support_over.jpg) 0 0 no-repeat;}
+
+#header ul li.contacts a{width:82px; background:url(../images/btn_contacts.jpg) 0 0 no-repeat; }
+#header ul li.contacts a:hover{width:82px; background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+#header ul li.line{width:2px; height:73px; background:url(../images/line_btn.jpg) 0 0 no-repeat; }
+
+
+/* MAIN */
+
+#main{width:735px; height:193px; background:url(../images/b_main.jpg) 0 0 no-repeat; position:relative; margin: 0 auto; clear:both; margin-bottom:10px}
+#logo{position:absolute; top:0; left:9px}
+#slogan{position:absolute; top:40px; left:453px}
+
+/* CONTENT */
+
+#content{width:735px; position:relative; margin: 0 auto; clear:both; margin-bottom:10px}
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#92c307; font-weight:normal; text-decoration:none }
+#content a:hover{color:#000; background:#fff; text-decoration:none;}
+
+p span.headline{font:11px/14px Tahoma, sans-serif; color:#fff; font-weight:normal;}
+p span.headline2{font:12px/12px Trebuchet MS, sans-serif; color:#fff; font-weight:bold;}
+p span.date{font:11px/14px Tahoma, sans-serif; color:#4c9dff; font-weight:normal;}
+
+#leftPan{width:219px; position:relative; float:left; display:inline;}
+
+#news{position:relative; margin-bottom:5px}
+#news h2{ height:50px; background:url(../images/h_news.gif) 14px 18px no-repeat; margin-bottom:20px; border-bottom:#454a4c 1px solid}
+
+p.bullet{padding-left:39px; padding-right:40px; background:url(../images/bullet.gif) 18px 3px no-repeat; color:#7a7a7a; margin-bottom:15px}
+
+#technologies{position:relative; margin-bottom:15px}
+#technologies h2{ height:50px; background:url(../images/h_technologies.gif) 14px 18px no-repeat; margin-bottom:20px; border-bottom:#454a4c 1px solid}
+#technologies li{background:url(../images/arrow.gif) 14px 6px no-repeat; padding-left:39px; height:18px}
+#technologies li a{font:10px/14px Tahoma, sans-serif; color:#70b606; font-weight:normal; text-decoration:underline}
+#technologies li a:hover{color:#70b606; font-weight:normal; text-decoration:none; background:#fff;}
+
+#middlePan{width:189px; position:relative; float:left; display:inline; }
+#welcome{position:relative; margin-bottom:15px; background:#4f6268 url(../images/b_welcome.jpg) left bottom no-repeat; padding-bottom:160px}
+#welcome h2{ height:50px; background:#5d6c72 url(../images/h_welcome.gif) 14px 17px no-repeat; margin-bottom:20px; border-bottom:#69797f 1px solid}
+#welcome p{padding:0 17px}
+#welcome p.subtitle{font:10px/10px Tahoma, sans-serif; color:#b6b6b6; text-transform:uppercase; margin-bottom:20px;}
+
+#rightPan{width:317px; position:relative; float:left; display:inline;}
+#services{position:relative; margin-bottom:15px; background:#46575d}
+#services h2{ height:50px; background:#59676d url(../images/h_services.gif) 26px 18px no-repeat; border-bottom:#627075 1px solid}
+.servicesitem{padding:20px 21px 20px 25px;}
+.servicesitem img{border:#5d6c72 3px solid; float:left; margin-right:15px;}
+.servicesitem p{margin-top:10px;}
+.servicesitem p.boldtext{font:12px/14px Trebuchet MS, sans-serif; color:#92c307; font-weight:bold; margin-top:0}
+.servicesitem p.boldtext span{color:#fff; margin-top:0}
+
+/* FOOTER */
+
+#footer{width:735px; height:96px; background:url(../images/b_footer.jpg) 0 0 repeat-x; position:relative; margin: 0 auto; clear:both;}
+#footer p{padding: 35px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#cecece;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#cecece; text-decoration:none; padding: 0 5px }
+#footer p a:hover{text-decoration:none; background:#fff; color:#000}

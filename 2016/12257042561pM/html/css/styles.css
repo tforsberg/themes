@@ -1,0 +1,96 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#fff; color:#59574d; font:10px/12px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+
+/* HEADER */
+
+#header{width:725px; height:257px; background:url(../images/b_header.jpg) 0 0 no-repeat; position:relative; margin: 0 auto;}
+#logo{position:absolute; top:111px; left:32px}
+#slogan{position:absolute; top:85px; left:525px}
+#call{position:absolute; top:8px; left:463px}
+
+/* MENU */
+
+#menu{width:725px; height:66px; background:url(../images/b_menu.jpg) 0 0 no-repeat; position:relative; margin: 0 auto; clear:both}
+
+#menu ul{height:51px; position:absolute; top:15px; left:0;}
+#menu ul li{float:left;}
+
+#menu ul li.home a{width:120px; height:22px; display:block; background:url(../images/btn_home.gif) 38px 0 no-repeat; text-indent:-20000px; margin:7px 0 0 0; }
+#menu ul li.home a:hover{width:120px; height:22px; background:url(../images/btn_home_over.gif) 38px 0 no-repeat;}
+
+#menu ul li.about a{width:120px; height:22px; display:block; background:url(../images/btn_about.gif) 27px 0 no-repeat; text-indent:-20000px; margin:7px 0 0 0; }
+#menu ul li.about a:hover{width:120px; height:22px; background:url(../images/btn_about_over.gif) 27px 0 no-repeat;}
+
+#menu ul li.menu a{width:120px; height:22px; display:block; background:url(../images/btn_menu.gif) 36px 0 no-repeat; text-indent:-20000px; margin:7px 0 0 0; }
+#menu ul li.menu a:hover{width:120px; height:22px; background:url(../images/btn_menu_over.gif) 36px 0 no-repeat;}
+
+#menu ul li.wines a{width:120px; height:22px; display:block; background:url(../images/btn_wines.gif) 38px 0 no-repeat; text-indent:-20000px; margin:7px 0 0 0; }
+#menu ul li.wines a:hover{width:120px; height:22px; background:url(../images/btn_wines_over.gif) 38px 0 no-repeat;}
+
+#menu ul li.location a{width:120px; height:22px; display:block; background:url(../images/btn_location.gif) 29px 0 no-repeat; text-indent:-20000px; margin:7px 0 0 0 ; }
+#menu ul li.location a:hover{width:120px; height:22px; background:url(../images/btn_location_over.gif) 29px 0 no-repeat;}
+
+#menu ul li.contacts a{width:120px; height:22px; display:block; background:url(../images/btn_contacts.gif) 29px 0 no-repeat; text-indent:-20000px; margin:7px 0 0 0; }
+#menu ul li.contacts a:hover{width:120px; height:22px; background:url(../images/btn_contacts_over.gif) 29px 0 no-repeat;}
+
+#menu ul li.line{width:1px; height:51px; background:url(../images/line_btn.jpg) 0 0 no-repeat; }
+
+/* ADS */
+
+#ads{width:725px; height:149px; background:#fdfaf1; position:relative; margin: 0 auto; clear:both}
+#ad1{width:347px; height:126px; position:relative; float:left; display:inline; margin:11px 13px 0 9px; background:url(../images/b_ad1.jpg) 0 0 no-repeat}
+#ad1 img{position:absolute; top:99px; left:229px}
+#ad2{width:347px; height:126px; position:relative; float:left; display:inline; margin:11px 0 0 0; background:url(../images/b_ad2.jpg) 0 0 no-repeat}
+#ad2 img{position:absolute; top:99px; left:229px}
+
+/* CONTENT */
+
+#content{width:725px; background:#fdfaf1 url(../images/b_content.jpg) 0 0 no-repeat; position:relative; margin: 0 auto; clear:both}
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#8f9710; font-weight:normal; text-decoration:none }
+#content a:hover{color:#000; background:#c8e056; text-decoration:none;}
+
+#content p span.headline{font:12px/10px Trebuchet MS, sans-serif; color:#9e250b; font-weight:bold;}
+
+#leftPan{width:320px; float:left; display:inline; position:relative; margin:21px 38px 20px 26px;}
+
+#welcome h2{height:30px; background:url(../images/h_welcome.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:10px}
+#welcome p{padding-left:2px; margin-bottom:15px; display:block;}
+
+.spacerline{height:1px; background:#dcd9d0; clear:both; margin-bottom:13px;}
+
+#welcome li.b1 {background:url(../images/bullet1.jpg) 1px 0 no-repeat; padding-left:40px; height:24px; padding-top:4px}
+#welcome li.b2 {background:url(../images/bullet2.jpg) 1px 0 no-repeat; padding-left:40px; height:24px; padding-top:4px}
+#welcome li.b3 {background:url(../images/bullet3.jpg) 1px 0 no-repeat; padding-left:40px; height:24px; padding-top:4px}
+#welcome li.b4 {background:url(../images/bullet4.jpg) 1px 0 no-repeat; padding-left:40px; height:24px; padding-top:4px}
+#welcome li a{font:10px/14px Tahoma, sans-serif; color:#59574d; font-weight:normal; text-decoration:underline;}
+#welcome li a:hover{color:#fff; font-weight:normal; text-decoration:none; background:#000;}
+
+#rightPan{width:320px; float:left; display:inline; position:relative; margin:21px 0 20px 0;}
+
+#featured{width:320px; clear:both}
+#featured h2{height:30px; background:url(../images/h_featured.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:10px}
+#featured img{border:#bebbb1 1px solid; margin-right:11px; float:left;}
+#featured p{width:176px; float:left; padding-top:1px; }
+
+#wines {position:relative; width:320px; clear:both}
+
+#left{width:239px; float:left; margin-top:17px; }
+#left h2{height:30px; background:url(../images/h_wines.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:10px}
+#left p{width:220px; float:left; padding-top:3px; padding-left:1px;}
+
+#right{width:78px; float:left; margin-top:26px;}
+
+
+/* FOOTER */
+
+#footer{width:725px; height:72px; background:url(../images/b_footer.jpg) 0 0 no-repeat; position:relative; margin: 0 auto; clear:both}
+
+#footer p{padding: 23px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#59574d;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#59574d; text-decoration:none; padding: 0 5px }
+#footer p a:hover{text-decoration:none; background:#59574d; color:#fff}

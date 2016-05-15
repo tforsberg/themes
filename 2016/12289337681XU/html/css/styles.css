@@ -1,0 +1,238 @@
+body{
+	padding:0px;
+	margin:0px;
+	background:#FFF;
+	color:#741907;
+	font:10px/14px Tahoma, sans-serif;
+}
+
+div, p, ul, h2, h3, h4, img, form{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.frame {
+	border: 1px solid #9C9A67;
+}
+
+.text1 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12px;
+	color: #160400;
+	font-weight: bold;
+}
+.text2 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #453633;
+}
+.text3 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #f1719a;
+}
+.text4 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #136B9B;
+}
+.text5 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #6d6d6d;
+}
+.text6 {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #136b9b;
+}
+
+a:link {
+	color: #453633;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #453633;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #BC1423;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: underline;
+}
+
+a.a:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #160400;
+	text-decoration: none;
+}
+a.a:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #160400;
+	text-decoration: none;
+}
+a.a:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #160400;
+	text-decoration: underline;
+}
+
+a.b:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #F1719A;
+	text-decoration: none;
+}
+a.b:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #F1719A;
+	text-decoration: none;
+}
+a.b:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #160400;
+	text-decoration: underline;
+	line-height: 14px;
+}
+
+a.c:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #382a1a;
+	text-decoration: none;
+}
+a.c:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #382a1a;
+	text-decoration: none;
+}
+a.c:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #989560;
+	text-decoration: none;
+}
+
+a.d:link {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #19333b;
+	text-decoration: underline;
+}
+a.d:visited {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #19333b;
+	text-decoration: underline;
+}
+a.d:hover {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF6C00;
+	text-decoration: none;
+}
+
+#header{
+position:relative; 
+}
+
+#logo{
+position:absolute; top:22px; left:546px;
+}
+
+#slogan1{
+position:absolute; top:31px; left:216px;
+}
+
+#slogan2{
+position:absolute; top:157px; left:491px;
+}
+
+#buttons{
+padding: 86px 0 0 268px;
+}
+
+#container{
+position:relative;
+width:675px;
+margin:20px 0 0 50px;
+}
+
+#indent1{
+width:422px;
+margin-right:34px;
+float:left;
+}
+
+#indent2{
+width:214px;
+float:left;
+}
+
+#welcome{
+width:386px;
+padding:9px 20px 0 16px;
+background-color:#fcf9f4;
+border-bottom:#f8f4ef 7px solid;
+margin-bottom:20px;
+}
+
+ul.arrow li{background:url(../images/arrow1.gif) 0 5px no-repeat; padding-left:16px; margin-bottom:4px}
+ul.arrow li a{font:10px/14px Tahoma, sans-serif; color:#f1719a; font-weight:normal; text-decoration:none;}
+ul.arrow li a:hover{color:#f1719a; font-weight:normal; text-decoration:underline;}
+
+ul.file li{background:url(../images/file.gif) 0 1px no-repeat; padding-left:17px; margin-bottom:10px}
+
+#links{
+	margin:20px 0 0 0;
+	line-height:18px;
+}
+
+input, textarea{
+border:#b7b7b7 1px solid;
+background-color:#f2f2f2;
+margin-top:5px;
+font:10px/12px Tahoma, sans-serif; color:#000; 
+}
+
+.current{
+ padding-bottom:20px;
+ clear:both;
+}

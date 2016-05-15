@@ -1,0 +1,80 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#000; color:#6b6b6b; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+#container{width:775px; background:url(../images/b_container.jpg) 0 0 repeat-y; position:relative; margin: 0 auto;}
+
+
+/* HEADER */
+
+#header{width:775px; height:350px; background:url(../images/b_header.jpg) 0 0 no-repeat; position:relative; margin: 0 auto;}
+#logo{position:absolute; top:24px; left:311px}
+#slogan{position:absolute; top:254px; left:290px}
+
+#header ul{position:absolute; top:130px; left:79px;}
+#header ul li{width:139px; height:30px; margin-bottom:1px}
+#header ul li a{width :139px; height:30px;  display:block; text-indent:-20000px; }
+#header ul li a:hover{width:139px; height:30px; }
+
+#header ul li.home a{background:url(../images/btn_home.gif) 0 0 no-repeat; }
+#header ul li.home a:hover{background:url(../images/btn_home_over.gif) 0 0 no-repeat;}
+
+#header ul li.about a{background:url(../images/btn_about.gif) 0 0 no-repeat; }
+#header ul li.about a:hover{background:url(../images/btn_about_over.gif) 0 0 no-repeat;}
+
+#header ul li.music a{background:url(../images/btn_music.gif) 0 0 no-repeat; }
+#header ul li.music a:hover{background:url(../images/btn_music_over.gif) 0 0 no-repeat;}
+
+#header ul li.new a{background:url(../images/btn_new.gif) 0 0 no-repeat; }
+#header ul li.new a:hover{background:url(../images/btn_new_over.gif) 0 0 no-repeat;}
+
+#header ul li.tour a{background:url(../images/btn_tour.gif) 0 0 no-repeat; }
+#header ul li.tour a:hover{background:url(../images/btn_tour_over.gif) 0 0 no-repeat;}
+
+#header ul li.contact a{background:url(../images/btn_contact.gif) 0 0 no-repeat; }
+#header ul li.contact a:hover{background:url(../images/btn_contact_over.gif) 0 0 no-repeat;}
+
+/* CONTENT */
+
+#content{width:775px; background:url(../images/b_content.jpg) 0 0 no-repeat; position:relative; margin: 0 auto; clear:both}
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#000000; font-weight:bold; text-decoration:none }
+#content a:hover{color:#000000; background:#fff; text-decoration:none;}
+
+p span.headline{font:12px/12px Trebuchet MS, sans-serif; color:#000; font-weight:bold;}
+
+
+#leftPan{width:163px; padding: 49px 41px 0 68px; position:relative; float:left; display:inline; margin-bottom:15px;}
+#news h2{ height:28px; background:url(../images/h_news.gif) top right no-repeat; margin-bottom:11px;}
+p.newsitem{margin-bottom:15px; color:#000;}
+p.newsitem span.date{font:12px/12px Trebuchet MS, sans-serif; color:#fc762f; font-weight:bold; display:block; width:93px; height:18px; text-align:center; padding-top:7px; background:#000; margin-bottom:7px; }
+
+
+
+#rightPan{width:435px; padding: 21px 0 0 0; position:relative; float:left; display:inline; margin-bottom:15px;}
+
+#welcome{margin-bottom:20px;}
+#welcome h2{ height:56px; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:5px; position:relative}
+#welcome p{width:210px; padding-left:5px; float:left; margin-right:20px}
+#welcome p span.headline{display:block; margin-bottom:10px}
+#welcome ul{width:190px; float:left}
+
+#welcome li{background:url(../images/bullet.gif) 0 2px no-repeat; padding-left:16px; height:20px}
+#welcome li a{font:10px/14px Tahoma, sans-serif; color:#ff2949; font-weight:normal; text-decoration:underline}
+#welcome li a:hover{color:#000; font-weight:normal; text-decoration:none; background:#fff;}
+
+#new h2{ height:64px; background:url(../images/h_album.gif) 0 0 no-repeat; margin-bottom:10px; position:relative}
+#new img{float:left; margin:0 13px 0 8px; display:inline}
+#new p {float:left; width:320px}
+#new p span.headline{display:block; margin-bottom:10px}
+
+
+/* FOOTER */
+
+#footer{width:775px; height:107px; background:url(../images/b_footer.jpg) 0 0 no-repeat; position:relative; margin: 0 auto; clear:both}
+#footer p{padding: 40px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 5px }
+#footer p a:hover{text-decoration:none; background:#fff; color:#000}
